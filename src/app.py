@@ -34,11 +34,11 @@ app.layout = html.Div([
 
 
 
-                    dbc.Textarea(id='textarea-state-example',
+                    dbc.Textarea(id='textarea-input',
                                  value='',
                                  placeholder='Enter text to translate',
                                  style={'width': '100%', 'height': 200}),
-                    dbc.Button('Translate', id='textarea-state-example-button', color='secondary', className='md-2',
+                    dbc.Button('Translate', id='translation-button', color='secondary', className='md-2',
                                n_clicks=0),
                     html.H3('Detected cycLingo entities', style={'padding-top': '30px','padding-bottom':'30px', 'text-align': 'left', 'color': 'black'}),
                     dcc.Markdown(id='output-ner',dangerously_allow_html=True, children='', style={'border': '1px dark grey', 'padding': '10px', 'height': 200}),
@@ -46,7 +46,7 @@ app.layout = html.Div([
                     html.H3('Norwegian Translation:',
                             style={'padding': '10px', 'text-align': 'left', 'color': 'black'}),
                     html.Br(),
-                    dbc.Textarea(id='textarea-state-example-output',
+                    dbc.Textarea(id='textarea-output',
                                  value='',
                                  style={'width': '100%', 'height': 200}),
                 ]), md=12,
@@ -56,9 +56,9 @@ app.layout = html.Div([
 
 # add callback for text input
 @app.callback(
-    [Output('textarea-state-example-output', 'value'),Output('output-ner', 'children')],
-    Input('textarea-state-example-button', 'n_clicks'),
-    State('textarea-state-example', 'value')
+    [Output('textarea-output', 'value'),Output('output-ner', 'children')],
+    Input('translation-button', 'n_clicks'),
+    State('textarea-input', 'value')
 )
 
 
