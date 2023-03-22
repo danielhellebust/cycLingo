@@ -5,6 +5,13 @@ from dash.dependencies import Input, Output, State
 import dash_bootstrap_components as dbc
 from transformers import MarianMTModel, MarianTokenizer
 
+import spacy
+
+nlp = spacy.load("./cycLingoNER")
+nlp.add_pipe('sentencizer')
+colors = {"cycLingo": "#F67DE3"}
+options = {"colors": colors}
+
 # create a dash app
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
@@ -25,14 +32,20 @@ app.layout = html.Div([
                                              'background-color': 'black'})]),
                     html.H3('English:', style={'padding': '10px', 'text-align': 'left', 'color': 'black'}),
 
+
+
                     dbc.Textarea(id='textarea-state-example',
                                  value='',
                                  placeholder='Enter text to translate',
                                  style={'width': '100%', 'height': 200}),
                     dbc.Button('Translate', id='textarea-state-example-button', color='secondary', className='md-2',
                                n_clicks=0),
+                    html.H3('Detected cycLingo entities', style={'padding-top': '30px','padding-bottom':'30px', 'text-align': 'left', 'color': 'black'}),
+                    dcc.Markdown(id='output-ner',dangerously_allow_html=True, children='', style={'border': '1px dark grey', 'padding': '10px', 'height': 200}),
+                    html.Br(),
                     html.H3('Norwegian Translation:',
                             style={'padding': '10px', 'text-align': 'left', 'color': 'black'}),
+                    html.Br(),
                     dbc.Textarea(id='textarea-state-example-output',
                                  value='',
                                  style={'width': '100%', 'height': 200}),
@@ -43,7 +56,7 @@ app.layout = html.Div([
 
 # add callback for text input
 @app.callback(
-    Output('textarea-state-example-output', 'value'),
+    [Output('textarea-state-example-output', 'value'),Output('output-ner', 'children')],
     Input('textarea-state-example-button', 'n_clicks'),
     State('textarea-state-example', 'value')
 )
@@ -54,8 +67,12 @@ def update_output(n_clicks, value):
     if n_clicks > 0:
         translated = model.generate(**tokenizer(value, return_tensors="pt", padding=True))
         result = [tokenizer.decode(t, skip_special_tokens=True) for t in translated]
+        doc = nlp(value)
+        result_ner = spacy.displacy.render(doc, style="ent", options=options, jupyter=False)
 
-        return result
+        return result, str(result_ner)
+    else:
+        return dash.no_update, dash.no_update
 
 
 if __name__ == '__main__':
