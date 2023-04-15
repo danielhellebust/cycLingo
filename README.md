@@ -1,5 +1,7 @@
 The app is deployed to Huggingface Space, try it here: https://huggingface.co/spaces/DanielHellebust/cycLingoTranslator
 
+Demo video of usage on YouTube: https://youtu.be/I_X-3Li54F4
+
 ______________________________________________________________________________
 
 Dash app for Translation of bicycle specific text from English to Norwegian. 
