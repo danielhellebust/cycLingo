@@ -16,7 +16,7 @@ git clone https://github.com/danielhellebust/cycLingo.git
 Step2: Load the custom NER model into the "src" folder by:
 
 ```python
-cd  cd src/cycLingoNER
+cd src/cycLingoNER
 git clone https://huggingface.co/DanielHellebust/cycLingoNER
 ```
 
