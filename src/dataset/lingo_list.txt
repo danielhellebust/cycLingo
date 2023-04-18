@@ -1,0 +1,259 @@
+Aero
+  BMX
+  Brakes
+  Cadence
+  Cassette
+  Chain
+  Chainrings
+  Clincher
+  Cog
+  Crank
+  crankarm
+  crankset
+  chainring
+  chainrings
+  Cyclocross
+  Derailleur
+  Drivetrain
+  Drops
+  Frame
+  Fenders
+  Fixie
+  Fork
+  Suspension fork
+  Gears
+  Granny gear
+  Headset
+  Hub
+  Mountain bike
+  Pannier
+  flat
+  Snake-bite
+  Presta
+  Quick release
+  QR
+  Rim
+  Road bike
+  Road tires
+  Saddle
+  Schrader
+  Shifting
+  Single-speed
+  SPD
+  Spokes
+  Spoke
+  Stem
+  Time trial
+  TT
+  Tubeless tires
+  Tubular
+  Tub
+  Wheelie
+  aerodynamic
+  bead
+  bottom bracket
+  cadence
+  cassette
+  chain suck
+  chainring
+  chainrings
+  chainstay
+  cleat
+  cleats
+  clincher
+  cog
+  cyclocross
+  downshift
+  drafting
+  drivetrain
+  dropout
+  drops
+  ergometer
+  fixed gear
+  granny gear
+  granny ring
+  headset
+  headsets
+  head tube
+  hybrid
+  mudguards
+  panniers
+  pinch flat
+  presta
+  randonnee
+  randonneur
+  reach
+  resistance trainer
+  road race
+  rollers
+  Schrader
+  seatstay
+  snakebite
+  soft-pedal
+  team time trial
+  TTT
+  tempo
+  time trial
+  travel
+  tubular
+  tubeless
+  upshift
+  velodrome
+  Aero
+  Chamois
+  KOM
+  QOM
+  Axle
+  Bar ends
+  Bar plugs
+  Basket
+  Bearing
+  Bell
+  Belt-drive
+  Bottle cage
+  Bottom bracket
+  Brake
+  Brake lever
+  Brake shifter
+  Braze-on
+  Cable guide
+  Cable
+  Cartridge bearing
+  Cassette
+  Coaster brake
+  Chain
+  Chainguard
+  Gear case
+  Bashguard
+  Chainring
+  Chainset
+  Chainstay
+  Chain tensioner
+  cogset
+  Cogset
+  Cone
+  cranks
+  Crankset
+  Cup
+  Cyclocomputer
+  Derailleur hanger
+  dropout
+  Derailleur
+  Down tube
+  Dropout
+  Dustcap
+  Dynamo
+  Eyelet
+  spoke nipple
+  Electronic Gear-Shifting System
+  Fender
+  Fork
+  Crown race
+  Fork crown
+  Fork end
+  Frame
+  Freehub
+  Freewheel
+  frame
+  Hanger
+  Handlebar
+  Handlebar tape
+  Head badge
+  head tube
+  Headset
+  Hub
+  Hub dynamo
+  Hub gear
+  Indicator
+  Inner tube
+  Jockey wheel
+  Kickstand
+  Locknut
+  Lockring
+  Luggage carrier
+  Nipple
+  Pannier
+  Pedal
+  MTB-pedal
+  road-pedal
+  combi-pedal
+  Pulley wheel
+  Quick release
+  Rack
+  Reflector
+  Rim
+  brake
+  disc brake
+  coaster brake
+  rim brake
+  Saddle
+  Seat
+  Seat rails
+  Seat lug
+  Seat tube
+  Seat bag
+  Seatpost
+  Seatstay
+  Shaft-drive
+  Shifter
+  Shock absorber
+  Spindle
+  Spoke
+  Sprocket
+  crankset
+  Steerer tube
+  Stem
+  Tire
+  tubular
+  Toe clips
+  Top tube
+  Valve stem
+  Presta
+  Schrader
+  Dunlop
+  Wheel
+  Wheels
+  Wheelset
+  Bicycle suspension
+  Bicycle tools
+  Bicycle wheel
+  Handlebars
+  Suspension
+  Wheels
+  Spoke nipple
+  Quick release skewer
+  Drivetrain
+  Derailleur gears
+  Hub gears
+  Mudguards
+  Panniers
+  Saddlebag
+  Training wheels
+  Cargo bike
+  Randonneuring
+  Road cycling
+  Cross-country cycling
+  Cyclo-cross
+  Fatbiking
+  Freeride
+  Gravel cycling
+  Downhill
+  Trials
+  Pump track
+  rear mech
+  front mech
+  di2
+  cable housing
+  olive and barb
+  olive
+  barb
+  end cap
+  chain pin
+  cycling bib
+  bikes
+  mtb pedal
+  road pedal
+  coaster brake
+  inner tube
+  inner tubes
+  jockey wheel

@@ -67,6 +67,7 @@ def update_output(n_clicks, value):
     if n_clicks > 0:
         translated = model.generate(**tokenizer(value, return_tensors="pt", padding=True))
         result = [tokenizer.decode(t, skip_special_tokens=True) for t in translated]
+        value = value.replace('\n', ' ')
         doc = nlp(value)
         result_ner = spacy.displacy.render(doc, style="ent", options=options, jupyter=False)
 
