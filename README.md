@@ -2,7 +2,7 @@ The app is deployed to Huggingface Space, try it here: https://huggingface.co/sp
 
 Demo video of usage on YouTube: https://youtu.be/I_X-3Li54F4
 
-The notebooks for training the custom NER model and annotation of the datasetts can be found here: 
+The notebooks for training the custom NER model and annotation of the datasets can be found here: 
 https://github.com/danielhellebust/cycLingo/tree/main/src/notebooks
 
 The datasets can be found here: 
